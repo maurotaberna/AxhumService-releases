@@ -1,0 +1,36 @@
+AXHUM SERVICE — Cómo instalar
+==============================
+
+1. Descargá "Axhum Service-Setup-1.0.1.exe" desde esta misma página
+   (sección Assets, más abajo, o en Releases).
+
+2. Doble clic para ejecutarlo.
+
+3. Windows puede mostrar un aviso azul que dice "Windows protegió tu PC".
+   Es porque el instalador todavía no tiene firma digital, no porque tenga
+   algo raro. Tocá "Más información" y después "Ejecutar de todas formas".
+   No hace falta desactivar el antivirus ni ningún control de seguridad.
+
+4. Elegí la carpeta (o dejá la que propone) y seguí el asistente.
+
+5. Al terminar, el programa se abre solo y queda un acceso directo en el
+   escritorio.
+
+PRUEBA GRATUITA
+----------------
+El programa arranca con 15 días de prueba completa, sin pedir nada. Cuando
+quieras activarlo para siempre, en Configuración → Datos y sistema vas a ver
+un "Código de equipo": mandáselo a Axhum Tech y te devuelven la clave.
+
+VERIFICAR EL ARCHIVO (opcional, para quien quiera confirmar que no se alteró
+en la descarga)
+----------------
+En PowerShell, dentro de la carpeta donde descargaste el instalador:
+
+  Get-FileHash ".\Axhum Service-Setup-1.0.1.exe" -Algorithm SHA256
+
+El resultado tiene que coincidir con el de SHA256SUMS.txt.
+
+SOPORTE
+-------
++54 3865 267037 — Axhum Tech
