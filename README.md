@@ -1,8 +1,9 @@
 # Axhum Service — Descargas
 
 Programa de escritorio para talleres de reparación de celulares: recepción de
-equipos, seguimiento por estados, mostrador de venta, caja y reportes.
-Funciona sin internet, en Windows.
+equipos, seguimiento por estados, mostrador de venta, caja y reportes, más la
+mercadería del taller (repuestos con su calidad, compras y proveedores, bajas,
+insumos y equipamiento). Funciona sin internet, en Windows.
 
 Este repositorio solo contiene los **instaladores oficiales**. El código
 fuente es privado.

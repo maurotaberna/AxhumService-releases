@@ -1,7 +1,7 @@
 AXHUM SERVICE — Cómo instalar
 ==============================
 
-1. Descargá "Axhum Service-Setup-1.0.1.exe" desde esta misma página
+1. Descargá "Axhum.Service-Setup-1.0.2.exe" desde esta misma página
    (sección Assets, más abajo, o en Releases).
 
 2. Doble clic para ejecutarlo.
@@ -16,6 +16,12 @@ AXHUM SERVICE — Cómo instalar
 5. Al terminar, el programa se abre solo y queda un acceso directo en el
    escritorio.
 
+SI YA TENÍAS UNA VERSIÓN ANTERIOR
+---------------------------------
+Instalá esta arriba de la que tenés, sin desinstalar nada: los datos y la
+licencia quedan como estaban. Igual, antes de actualizar hacé una copia de
+seguridad desde Configuración → Copias de seguridad.
+
 PRUEBA GRATUITA
 ----------------
 El programa arranca con 15 días de prueba completa, sin pedir nada. Cuando
@@ -27,7 +33,7 @@ en la descarga)
 ----------------
 En PowerShell, dentro de la carpeta donde descargaste el instalador:
 
-  Get-FileHash ".\Axhum Service-Setup-1.0.1.exe" -Algorithm SHA256
+  Get-FileHash ".\Axhum.Service-Setup-1.0.2.exe" -Algorithm SHA256
 
 El resultado tiene que coincidir con el de SHA256SUMS.txt.
 
